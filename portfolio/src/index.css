@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,600&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #060A08;
+    color: #E8F5EC;
+    font-family: 'Inter', system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: rgba(74, 222, 128, 0.20);
+    color: #4ADE80;
+  }
+
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: #060A08; }
+  ::-webkit-scrollbar-thumb { background: #1A2E20; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: #4ADE80; }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, #4ADE80 0%, #86EFAC 60%, #34D399 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text-gradient-subtle {
+    background: linear-gradient(135deg, #E8F5EC 0%, #86EFAC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .glow-accent {
+    box-shadow: 0 0 24px rgba(74,222,128,0.20), 0 0 60px rgba(74,222,128,0.06);
+  }
+
+  .card-surface {
+    background: #0A0F0C;
+    border: 1px solid #1A2E20;
+    border-radius: 12px;
+  }
+
+  .card-elevated {
+    background: #101810;
+    border: 1px solid #1A2E20;
+    border-radius: 12px;
+  }
+
+  .section-padding {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .focus-ring:focus-visible {
+    outline: 2px solid #4ADE80;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  /* Serif display utility */
+  .font-serif-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
