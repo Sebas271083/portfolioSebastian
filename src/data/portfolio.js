@@ -9,9 +9,9 @@ export const PERSONAL_INFO = {
   bio: "Soy un desarrollador Full Stack con experiencia en el diseño y construcción de sistemas web completos, desde la arquitectura de base de datos hasta interfaces de usuario modernas. Me especializo en crear soluciones escalables para negocios reales, combinando criterio técnico con visión de producto.",
   location: "Argentina",
   available: true,
-  email: "alex.rivera@email.com",
-  linkedin: "https://linkedin.com/in/alexrivera",
-  github: "https://github.com/alexrivera",
+  email: "sebdelgado83@email.com",
+  linkedin: "https://linkedin.com/in/sebastian--delgado",
+  github: "https://github.com/Sebas271083,
   stats: [
     { value: "5+", label: "Proyectos entregados" },
     { value: "3+", label: "Años de experiencia" },
