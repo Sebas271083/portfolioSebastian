@@ -11,7 +11,7 @@ export const PERSONAL_INFO = {
   available: true,
   email: "sebdelgado83@email.com",
   linkedin: "https://linkedin.com/in/sebastian--delgado",
-  github: "https://github.com/Sebas271083,
+  github: "https://github.com/Sebas271083",
   stats: [
     { value: "5+", label: "Proyectos entregados" },
     { value: "3+", label: "Años de experiencia" },
