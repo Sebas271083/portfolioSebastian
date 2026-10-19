@@ -19,7 +19,7 @@ export const PERSONAL_INFO = {
     availability: "Disponible inmediatamente",
   },
 
-  email: "sebastian.delgado@email.com",
+  email: "sebdelgado83@email.com",
   linkedin: "https://linkedin.com/in/sdelgado",
   github: "https://github.com/sdelgado",
   cvUrl: "/cv-sebastian.delgado.pdf",
