@@ -78,7 +78,7 @@ export const PROJECTS = [
     ],
     stack: ["React", "Node.js", "Express", "MySQL", "Sequelize", "JWT"],
     role: "Desarrollador Full Stack — Relevamiento, arquitectura, backend, base de datos y frontend",
-    demo: "#",
+    demo: "https://www.vetsoft.ar/",
     github: "#",
     featured: true,
     mockupType: "veterinary",
