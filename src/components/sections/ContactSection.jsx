@@ -127,8 +127,8 @@ export default function ContactSection() {
 
   const socialLinks = [
     { icon: Mail, label: 'Email', value: PERSONAL_INFO.email, href: `mailto:${PERSONAL_INFO.email}` },
-    { icon: Linkedin, label: 'LinkedIn', value: 'linkedin.com/in/alexrivera', href: PERSONAL_INFO.linkedin },
-    { icon: Github, label: 'GitHub', value: 'github.com/alexrivera', href: PERSONAL_INFO.github },
+    { icon: Linkedin, label: 'LinkedIn', value: 'linkedin.com/in/sebastian--delgado', href: PERSONAL_INFO.linkedin },
+    { icon: Github, label: 'GitHub', value: 'https://github.com/Sebas271083', href: PERSONAL_INFO.github },
   ];
 
   return (
